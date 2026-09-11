@@ -10,7 +10,7 @@ export default function DestinationCard({ destination }) {
       >
         <div className="destination-image-wrapper">
           <Image
-            src={destination.image}
+             src={`/lakay-pangasinan${destination.image}`}
             alt={`${destination.name} in ${destination.location}`}
             width={900}
             height={650}
