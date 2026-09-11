@@ -2,11 +2,11 @@
 
 ## Project Title
 
-Lakay
+Lakbay Pangasinan
 
 ## Student Name
 
-YOUR NAME
+Macasieb, Daisy Rose L.
 
 ## Selected Framework
 
@@ -14,7 +14,7 @@ Next.js
 
 ## Live Website
 
-https://YOUR-USERNAME.github.io/lakay/
+https://daisymacasieb111-code.github.io/lakay-pangasinan/explore
 
 ## GitHub Repository
 
