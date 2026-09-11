@@ -20,8 +20,8 @@ export default function Footer() {
 
         <div>
           <h3>Explore</h3>
-          <a href="/explore">Destinations</a>
-          <a href="/about">About Lakbay</a>
+          <a href="/lakay-pangasinan/explore">Destinations</a>
+          <a href="/lakay-pangasinan/about">About Lakbay</a>
         </div>
 
         <div>
