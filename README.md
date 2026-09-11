@@ -1,4 +1,4 @@
-# Lakay
+# Lakbay Pangasinan
 
 ## Project Title
 
@@ -18,4 +18,4 @@ https://daisymacasieb111-code.github.io/lakay-pangasinan/explore
 
 ## GitHub Repository
 
-https://github.com/YOUR-USERNAME/lakay
+https://github.com/daisymacasieb111-code/lakay-pangasinan
