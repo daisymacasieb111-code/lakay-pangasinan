@@ -29,7 +29,7 @@ export default function DestinationPage({
     <main className="detail-page">
       <section className="detail-hero">
         <Image
-          src={destination.image}
+          src={`/lakay-pangasinan${destination.image}`}
           alt={`${destination.name}, ${destination.location}`}
           width={1600}
           height={900}
