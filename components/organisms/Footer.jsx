@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -20,8 +22,14 @@ export default function Footer() {
 
         <div>
           <h3>Explore</h3>
-          <a href="/lakay-pangasinan/explore">Destinations</a>
-          <a href="/lakay-pangasinan/about">About Lakbay</a>
+
+          <Link href="/explore">
+            Destinations
+          </Link>
+
+          <Link href="/about">
+            About Lakbay
+          </Link>
         </div>
 
         <div>
@@ -45,3 +53,4 @@ export default function Footer() {
     </footer>
   );
 }
+
