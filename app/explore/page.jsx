@@ -5,18 +5,18 @@ import DestinationGrid from "../../components/organisms/DestinationGrid";
 import SearchForm from "../../components/molecules/SearchForm";
 import destinations from "../../data/destinations";
 
+const categories = [
+  "All",
+  "Beach",
+  "Nature",
+  "History",
+  "Culture",
+  "Agriculture",
+];
+
 export default function ExplorePage() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
-
-  const categories = [
-    "All",
-    "Beach",
-    "Nature",
-    "History",
-    "Culture",
-    "Agriculture",
-  ];
 
   useEffect(() => {
     const params = new URLSearchParams(
@@ -109,11 +109,10 @@ export default function ExplorePage() {
         </p>
 
         <DestinationGrid
-          destinations={
-            filteredDestinations
-          }
+          destinations={filteredDestinations}
         />
       </section>
     </main>
   );
 }
+

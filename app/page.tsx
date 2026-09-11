@@ -65,8 +65,8 @@ export default function Home() {
 
       <section className="quote-section">
         <p>
-          "Every destination has a story.
-          Go find yours."
+          Every destination has a story.
+          Go find yours.
         </p>
       </section>
     </main>
